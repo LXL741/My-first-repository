@@ -4,8 +4,8 @@
 
 ### 一、C语言基础练习
 - `swap.c`：指针交换变量练习
-- `bubble.c`：冒泡排序（基础版）
-- `bubble1.c`：冒泡排序（第二版）
+- `bubble.c`：冒泡排序
+- `bubble1.c`：冒泡排序 重复写
 - `selection_sort.c`：选择排序
 - `sort_functions.c`：冒泡与选择排序的函数封装
 
