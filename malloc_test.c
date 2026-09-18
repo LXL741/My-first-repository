@@ -13,7 +13,7 @@ int main()
         
         if(p==NULL){
             printf("内存申请失败！\n");
-            return 0;
+            return 1;
         }
         p->data=100;
         p->next=NULL;
