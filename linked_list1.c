@@ -34,6 +34,6 @@ int main()
     node3->next=NULL;
     struct Node *p=node1;
     printf("lianbiaoshuju:\n");
-    print_link(node1);
+    print_link(p);
     return 0;
 }
