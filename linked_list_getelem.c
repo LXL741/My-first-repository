@@ -41,5 +41,6 @@ int main()
         q=q->next;
         free(temp);
     }
+    free(L);
     return 0;
 }
