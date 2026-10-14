@@ -29,6 +29,7 @@ int InsertBook(Seqlist *L,int i,Book a)
     }
     L->data[i-1]=a;
     L->length++;
+    return 1;
 }
 
 void print(Seqlist *L)
@@ -44,8 +45,10 @@ void FindBook(Seqlist *L,char *name)
     for(int i=0;i<L->length;i++)
     {
         if (strcmp(L->data[i].name, name) == 0)
+        {
         printf("find:%s %s %.2f\n",L->data[i].name,L->data[i].author,L->data[i].price);
         return;
+        }
     }
     printf("error!");
 }
