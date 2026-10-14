@@ -33,6 +33,7 @@ int Delete(SeqList *L,int i)
         L->data[j-1]=L->data[j];
     }
     L->length--;
+    return 1;
 }
 
 void print(SeqList *L)
