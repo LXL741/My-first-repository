@@ -21,7 +21,7 @@ LNode *locate(Linklist L,int n,int *posion)
 
 int main()
 {
-    Linklist L=(Linklist)malloc(sizeof(Linklist));
+    Linklist L=(Linklist)malloc(sizeof(LNode));
     L->next=NULL;
     LNode *tail = L;
     for(int i=0;i<5;i++)
