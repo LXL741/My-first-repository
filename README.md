@@ -10,7 +10,7 @@
 - `struct1.c` / `struct2.c` / `struct3.c`：结构体基础定义、赋值打印与结构体数组
 - `struct_review1.c` / `struct_review2.c`：结构体复习、数组与指针遍历封装
 - `malloc_test.c`：动态内存申请（malloc）与释放（free）测试
-
+- `file.c`：文件读写基础
 ### 二、数据结构 (data-structure)
 - `seq_list.c`：顺序表基础实现
 - `linked_list1.c`：动态单链表（3节点创建、连线、遍历封装）
