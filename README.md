@@ -11,8 +11,9 @@
 - `struct_review1.c` / `struct_review2.c`：结构体复习、数组与指针遍历封装
 - `malloc_test.c`：动态内存申请（malloc）与释放（free）测试
 - `file.c`：文件读写基础
+
 ### 二、数据结构 (data-structure)
-- `seq_list.c`：顺序表基础实现
+- `seq_List.c`：顺序表基础实现
 - `linked_list1.c`：动态单链表（3节点创建、连线、遍历封装）
 - `linked_list2.c`：循环动态创建 N 节点链表，遍历并安全释放
 - `linked_list_textbook.c`：带头结点单链表（尾插法创建、遍历、循环释放）
