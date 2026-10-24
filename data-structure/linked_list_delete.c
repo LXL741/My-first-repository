@@ -17,6 +17,7 @@ Linklist delete(Linklist L,int i)
     }
     if(p == NULL || j>i-1)return NULL;
     LNode *q = p->next;
+    if(q==NULL)return NULL;
     p->next=q->next;
     free(q);
     return L;
