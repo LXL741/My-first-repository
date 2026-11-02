@@ -24,3 +24,8 @@
 
 ### 三、数据库环境配置 (database)
 - `database_setup.md`：MySQL 8.0.42 安装与踩坑记录
+
+### 四、算法模板与竞赛练习 (algorithm-templates)
+- `qsort.c`：C 语言标准库快排函数应用模板
+- `mergesort.c`：归并排序基础实现（升序）
+- `merge_test.c`：归并排序测试（降序变体）
