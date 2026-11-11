@@ -29,3 +29,8 @@
 - `qsort.c`：C 语言标准库快排函数应用模板
 - `mergesort.c`：归并排序基础实现（升序）
 - `merge_test.c`：归并排序测试（降序变体）
+
+### 五、C++ 入门练习 (cpp-learning)
+- `hello.cpp`：C++ 第一个程序，用 cout 输出 Hello world
+- `cin.cpp`：cin/cout 读写加速模板（关闭 C 与 C++ 同步、解除 cin 与 cout 绑定），并记录必须写在任何输入输出之前、不能混用两套输入输出的注意点
+- `sort.cpp`：标准库 sort 用法练习（默认升序、greater<int>() 降序、指定区间 a+2 到 a+5 排序）
