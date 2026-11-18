@@ -39,3 +39,5 @@
 - `pair.cpp`：pair 存两个值并排序（默认规则：先比 first，再比 second）
 - `struct_sort.cpp`：结构体自定义 cmp 排序（按数学成绩升序，输出学号）
 - `map.cpp`：map 计数与遍历（键自动排序、count 判断键是否存在、find 与 end 比较）
+- `set.cpp`：set 去重与查找（自动去重并按升序排列、size 统计不同元素个数、count 判断是否存在、erase 删除元素）
+- `unordered_map.cpp`：unordered_map 计数练习（用法与 map 相同但遍历无序，用 reserve 预留空间防止扩容卡顿）
