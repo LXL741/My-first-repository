@@ -34,3 +34,8 @@
 - `hello.cpp`：C++ 第一个程序，用 cout 输出 Hello world
 - `cin.cpp`：cin/cout 读写加速模板（关闭 C 与 C++ 同步、解除 cin 与 cout 绑定），并记录必须写在任何输入输出之前、不能混用两套输入输出的注意点
 - `sort.cpp`：标准库 sort 用法练习（默认升序、greater<int>() 降序、指定区间 a+2 到 a+5 排序）
+- `vector.cpp`：vector 增删查遍历练习（push_back 建数组、下标遍历、find 查值定位、erase 按位置删除）
+- `string.cpp`：string 常用操作（拼接、substr 截取子串、find 查找、replace 替换）
+- `pair.cpp`：pair 存两个值并排序（默认规则：先比 first，再比 second）
+- `struct_sort.cpp`：结构体自定义 cmp 排序（按数学成绩升序，输出学号）
+- `map.cpp`：map 计数与遍历（键自动排序、count 判断键是否存在、find 与 end 比较）
